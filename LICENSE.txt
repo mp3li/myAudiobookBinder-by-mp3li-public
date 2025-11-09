@@ -1,0 +1,5 @@
+All Rights Reserved.
+
+This repository provides compiled binaries of myAudiobookBinder by mp3li for demonstration and personal use only. 
+No portion of the codebase, assets, or design may be copied, modified, or redistributed without explicit permission.
+© 2025 mp3li
