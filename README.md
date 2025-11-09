@@ -3,13 +3,25 @@
 
 ![appscreen1](https://github.com/user-attachments/assets/39a1f2fa-7986-4b1c-a86c-60069a93e3f4)
 
+# 🎧 myAudiobookBinder by mp3li
 
-# myAudiobookBinder
+A simple macOS app for binding audiobooks and metadata — aesthetic, local, and private. Made for iPod and mp3 player lovers in mind. 💿
 
-### Description
-Desktop app to combine multiple MP3 files into a single audiobook with metadata and optional cover art. Specifically made for iPod/mp3 player purposes, I couldn't find one for free with these specific features. Supports output formats `m4b`, `m4a`, and `mp3`. I included the other output formats specifically for picky and even pickier mp3 players. Packaged into an .exe that runs on macOS, Windows, and Linux. Includes a ton of options for adding metadata and sorting options for tracks and the ability to add and crop cover art.
+## 📦 Download
+👉 [Download the latest macOS build](./myAudiobookBinder-mac.zip)
 
-### Features
+## 🧠 About
+This repo hosts the compiled public build.  
+Source code and assets remain private.
+
+## ⚖️ License
+© 2025 mp3li. All Rights Reserved.
+
+## Description
+
+Desktop app to combine multiple MP3 files into a single audiobook with metadata and optional cover art. Specifically made for iPod/mp3 player purposes, I couldn't find one for free with these specific features. Supports output formats `m4b`, `m4a`, and `mp3`. I included the other output formats specifically for picky and even pickier mp3 players. Includes a ton of options for adding metadata and sorting options for tracks and the ability to add and crop cover art. Packaged into an .app that runs on macOS. Windows and Linux versions coming soon. 
+
+## Features
 • Import multiple .mp3 files at once
 
 • Import your own cover art 
@@ -50,14 +62,14 @@ Desktop app to combine multiple MP3 files into a single audiobook with metadata 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• File names are saved in this format: (Title) by (Author) while maintaining separate title and author metadata, for organizational purposes
 
-<details><summary>Requirements</summary>
+<details>
+<summary><h2>🖥️ Requirements</h2></summary>
 
-### Requirements
+## Requirements
 - Python 3.10+ recommended.
-- App looks to see if you already have ffmpeg installed. To check, or to download ffmpeg, see below how to install requirements. 
 - Dependencies: see `requirements.txt`.
 
-### How to install requirements:
+## How to install requirements:
 #### On macOS
 - `python3 -m venv .venv`
 - `source .venv/bin/activate`
@@ -76,19 +88,13 @@ Desktop app to combine multiple MP3 files into a single audiobook with metadata 
 - `pip install -r requirements.txt`
 - `python3 myAppThings/Scripts/app.py`
 
-### ffmpeg - how to check if you have it, or install it:
-- Check: `ffmpeg -version`
-- macOS (Homebrew): `brew install ffmpeg`
-- Windows (Winget): `winget install ffmpeg`
-- Ubuntu/Debian: `sudo apt-get install ffmpeg`
-- Fedora: `sudo dnf install ffmpeg`
-- Arch: `sudo pacman -S ffmpeg`
-
 </details>
 
 ## How to use:
 
 **Instructions:**
+
+- __How to run app:__ Double click the myAudiobookBinder by mp3li app icon.
 
 - __How to start:__ Start by either inputting the information about the audiobook, or by importing the audio files, whichever you want to do first.
   
